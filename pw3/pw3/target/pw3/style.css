@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5e7e8;
+    color: #333;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 32px;
+    color: #d84e6c;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #d84e6c;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #d84e6c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #b63755;
+}
+
+.cancel-btn {
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cancel-btn:hover {
+    background-color: #aaa;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
